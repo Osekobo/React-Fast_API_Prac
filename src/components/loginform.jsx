@@ -7,8 +7,6 @@ function LoginForm() {
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log("Email", email);
-    // console.log("Password", password);
     const userData = {
       email,
       password,
